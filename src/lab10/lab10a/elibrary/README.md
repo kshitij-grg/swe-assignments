@@ -1,13 +1,7 @@
 # 📚 Lab 10a Assignment
 
-## Question 1: PatientsAppointmentsBookingApp
+## Question 2: eLibrary Homepage Screenshot
 
-Below are the screenshots of the two profiles: **dev** and **prod**.
+Below is the screenshot of the **eLibrary homepage**:
 
-### 🔧 Development Profile
-
-<img src="../PatientsAppointmentsBookingApp/screenshots/PAMsApp%20-%20profile%20dev.png" alt="PAMsApp - Dev Profile" width="600"/>
-
-### 🚀 Production Profile
-
-<img src="../PatientsAppointmentsBookingApp/screenshots/PAMsApp%20-%20profile%20prod.png" alt="PAMsApp - Prod Profile" width="600"/>
+<img src="screenshots/elibrary.png" alt="eLibrary Homepage" width="600"/>
