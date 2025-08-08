@@ -21,8 +21,7 @@ public class Transcript {
     @OneToOne(mappedBy = "transcript")
     private Student student;
 
-    public Transcript(Long transcriptId, String degreeTitle) {
-        this.transcriptId = transcriptId;
+    public Transcript(String degreeTitle) {
         this.degreeTitle = degreeTitle;
     }
 
