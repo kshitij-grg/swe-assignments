@@ -18,6 +18,15 @@
         </processorPath>
         <module name="MyStudentMgmtApp" />
       </profile>
+      <profile name="Annotation profile for eRegistrarWebAPI" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="eRegistrarWebAPI" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="PatientsAppointmentsBookingApp" target="17" />
@@ -29,6 +38,7 @@
       <module name="PatientsAppointmentsBookingApp" options="-parameters" />
       <module name="PatientsAppointmentsBookingApp.main" options="-parameters" />
       <module name="PatientsAppointmentsBookingApp.test" options="-parameters" />
+      <module name="eRegistrarWebAPI" options="-parameters" />
       <module name="elibrary" options="-parameters" />
     </option>
   </component>
