@@ -1,0 +1,17 @@
+package edu.miu.cs425.exampractice.repository;
+
+import edu.miu.cs425.exampractice.model.Supplier;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface SupplierRepository extends JpaRepository<Supplier, Integer> {
+
+    @Query(value = """
+        select s from Supplier s left join fetch s.products order by s.name
+    """)
+    List<Supplier> getAllSuppliersAndProducts();
+}

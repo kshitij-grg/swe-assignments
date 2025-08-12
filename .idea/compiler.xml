@@ -20,13 +20,14 @@
         </processorPath>
         <module name="MyStudentMgmtApp" />
       </profile>
-      <profile name="Annotation profile for eRegistrarWebAPI" enabled="true">
+      <profile name="Annotation profile for examPractice" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
+        <module name="examPractice" />
         <module name="eRegistrarWebAPI" />
       </profile>
     </annotationProcessing>
@@ -42,6 +43,7 @@
       <module name="PatientsAppointmentsBookingApp.test" options="-parameters" />
       <module name="eRegistrarWebAPI" options="-parameters" />
       <module name="elibrary" options="-parameters" />
+      <module name="examPractice" options="-parameters" />
     </option>
   </component>
 </project>
