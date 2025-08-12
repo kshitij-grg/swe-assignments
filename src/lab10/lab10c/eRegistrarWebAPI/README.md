@@ -22,7 +22,7 @@ Features include creating, retrieving, updating, and deleting student records, w
 ---
 
 ### 3️⃣ Getting a Single Student
-**GET** `/eregistrar/api/student/{id}`  
+**GET** `/eregistrar/api/student/get/{id}`  
 ![GET SINGLE.png](screenshots/GET%20SINGLE.png)
 
 ---
@@ -40,7 +40,7 @@ Features include creating, retrieving, updating, and deleting student records, w
 ---
 
 ### 6️⃣ Getting After Deletion
-**GET** `/eregistrar/api/student/{id}` *(after deletion)*  
+**GET** `/eregistrar/api/student/list` *(after deletion)*  
 ![GET after DELETE.png](screenshots/GET%20after%20DELETE.png)
 
 ---
